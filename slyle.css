@@ -1,0 +1,158 @@
+body {
+	width: 100%;
+	margin: 0;
+
+}
+
+.cover {
+	width: 100%
+	height: 100%;
+    
+	background-image: url(img/1.png) ;
+	background-size: cover;
+}
+
+
+.nameartist {
+	color: #fff;
+	margin-left: 5%;
+	padding-top: 30%;
+	font-size: 34px;
+}
+
+.listener {
+	color: #fff;
+	font-size: 15px;
+	margin-left: 5%;
+
+}
+.likehare {
+	color: #fff;
+     display: flex;
+	justify-content: space-between;
+    align-items: center;
+
+}
+
+.like {
+	width: 100%;
+	height: 24px;
+	padding-left: 5%;
+	margin-left: 5%;
+	
+	
+	
+}
+
+.share {
+     
+     padding-left: 5%;
+    
+
+	}
+
+.heart_text {
+
+	
+	font-size: 20px;
+}
+
+
+
+.title__popular {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+
+.popular__release{
+	margin-top: 5%;
+	margin-left: 5%;
+	color: #353940;
+	font-size: 22pt;
+	font-weight: bold;
+	
+}
+
+.popular__see_all {
+	font-weight: bold;
+	color: #118A7E;
+	margin-top: 5%;
+	margin-right: 10%;
+}
+
+.one__popular__artist {
+	margin-top: 7%;
+	display: flex;
+	justify-content: space-between;
+    align-items: center
+}
+.one__popular__artist1 {
+	display: flex;
+	align-items: center;
+}
+
+
+
+.one__img {
+	margin-left: 10%;
+}
+
+.one__text {
+	width: 300px;
+	padding-left: 10%;
+}
+.one__menu {
+	display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+
+.latest__bodydiv {
+	overflow-x: auto;
+	display: flex;
+	justify-content: flex-start;
+    align-items: center
+}
+
+.latest__item {
+	margin-top: 5%;
+	margin-left: 5%;
+	width: 130px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.latest__item__text {
+
+
+}
+
+menu {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	margin: 0;
+	padding: 0;
+	justify-content: space-evenly;
+	display: flex;
+	background-color: #fff;
+    position:fixed;
+   left:0px;
+   bottom:0px;
+   width:100%;
+}
+
+.menu2 {
+	display: flex;
+}
+.menu1 {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    color: #353940;
+}
+.menu2:active {
+	background-color: #ffffff;
+}
